@@ -1,0 +1,54 @@
+body {
+  background-color: #FECD70;
+  padding-inline: 2em;
+}
+
+#main {
+  background-color: #ffffff;
+  padding-block: 1.8em;
+}
+
+#main figure {
+  margin-block: 1.2rem;
+  width: Min(100%, 675px);
+  margin-inline: auto;
+}
+
+#main figure img {
+  border-radius: 20px;
+}
+
+#main figure figcaption {
+  margin-top: 1.8rem;
+}
+
+#main .ingredients h2,
+#main .directions h2 {
+  background-color: #E3C770;
+  padding: 0.4em 1.2em;
+  border-radius: 8px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 2rem 0 1rem;
+}
+
+#main .step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin: 2rem auto 1rem;
+}
+
+#main .step span {
+  display: inline-block;
+  width: 5px;
+  height: 28px;
+  border-radius: 3px;
+  background-color: #E3C770;
+}
+/*# sourceMappingURL=recipes.css.map */

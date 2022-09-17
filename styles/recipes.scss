@@ -1,0 +1,52 @@
+$primary-color: #E3C770;
+$secondary-color: #FECD70;
+
+body {
+    background-color: $secondary-color;
+    padding-inline: 2em;
+}
+
+// Component
+
+#main {
+    background-color: #ffffff;
+    padding-block: 1.8em;
+
+    figure {
+        margin-block: 1.2rem;
+        width: Min(100%, 675px);
+        margin-inline: auto;
+
+        img {
+            border-radius: 20px;
+        }
+
+        figcaption {
+            margin-top: 1.8rem;
+        }
+    }
+
+    .ingredients h2,
+    .directions h2 {
+        background-color: $primary-color;
+        padding: 0.4em 1.2em;
+        border-radius: 8px;
+        width: max-content;
+        margin: 2rem 0 1rem;
+    }
+
+    .step {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 2rem auto 1rem;
+
+        span {
+            display: inline-block;
+            width: 5px;
+            height: 28px;
+            border-radius: 3px;
+            background-color: $primary-color;
+        }
+    }
+}
